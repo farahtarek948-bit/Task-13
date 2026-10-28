@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farah Accessories</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>The Store</h1>
+        <p class="subtitle">Manage Your Products</p>
+
+        <div class="form-box">
+
+            <input type="text" id="productName" placeholder="Product Name">
+
+            <input type="number" id="productPrice" placeholder="Product Price">
+
+            <button id="createBtn">Create Product</button>
+
+        </div>
+
+        <input type="text" id="searchInput" placeholder="Search by product name...">
+
+        <h3 id="totalPrices">Total Prices: 0 EGP</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Product Name</th>
+                    <th>Price (EGP)</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody id="productTable">
+            </tbody>
+        </table>
+
+    </div>
+    <link rel="stylesheet" href="./styel.css">
+    <script src="./practice.js"></script>
+</body>
+</html>

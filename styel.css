@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eaf5f6;
+    color: #111111;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #6d6d6d;
+}
+
+.form-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 550px;
+    margin: 0 auto 25px;
+    box-shadow: 0 4px 15px #00000010;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #a0e6f5;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background: #00c6f3;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#createBtn {
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#searchInput {
+    margin-top: 10px;
+}
+
+#totalPrices {
+    margin: 20px 0;
+    color: #000000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 13px 10px;
+    text-align: left;
+    border-bottom: 1px solid #e1e8eb;
+}
+
+th {
+    background:#00c6f3;
+    color: white;
+}
+
+.edit-btn {
+    background: #ffae00;
+    margin: 3px;
+}
+
+.delete-btn {
+    background: #ff0000;
+    margin: 3px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px 8px;
+    }
+
+    th, td {
+        padding: 9px 5px;
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 9px 7px;
+    }
+}
